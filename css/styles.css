@@ -17,12 +17,10 @@ html{
     --adress-color:rgba(255, 255, 255, 0.6); 
     --solid-header: #ECECEC;
     --work-person:  #F5F4FA;
-    --background-color: #E5E5E5;
 }
 .body{
     font-family: "Roboto", sans-serif;
     color: var(--primary-tex-color);
-    background-color: var(--background-color);
 }
 ul{
     list-style: none;
@@ -349,6 +347,7 @@ margin-right: 8px;
 /*------------------------------PORTFOLIO------------*/
 
 .features-title{
+    gap: 30px;
     display: flex;
     flex-wrap: wrap;
 }
